@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h2>js箭头函数</h2>
+    <p>箭头函数不需要使用function、return关键字及大括号{}</p>
+    <p>IE11及更早IE版本不支持箭头函数</p>
+    <p id="demo"></p>
+    <script>
+        const x= (x,y)=>x*y;
+        document.getElementById("demo").innerHTML=x(5,5)
+    </script>
+</body>
+</html>
